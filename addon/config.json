@@ -1,6 +1,6 @@
 {
   "name": "Leaf2MQTT",
-  "version": "46",
+  "version": "46apc",
   "slug": "leaf2mqtt",
   "description": "Interact with your Nissan Leaf using MQTT",
   "startup": "application",
@@ -15,13 +15,13 @@
     "LEAF_PASSWORD": "",
     "LEAF_TYPE": "",
     "MQTT_HOST": "homeassistant.local",
-    "MQTT_PORT": "",
-    "MQTT_USERNAME": "",
+    "MQTT_PORT": "1883",
+    "MQTT_USERNAME": "mqtt",
     "MQTT_PASSWORD": "",
-    "MQTT_BASE_TOPIC": "",
-    "UPDATE_INTERVAL_MINUTES": "",
-    "CHARGING_UPDATE_INTERVAL_MINUTES": "",
-    "COMMAND_ATTEMPTS": "",
+    "MQTT_BASE_TOPIC": "nissanleaf",
+    "UPDATE_INTERVAL_MINUTES": "45",
+    "CHARGING_UPDATE_INTERVAL_MINUTES": "30",
+    "COMMAND_ATTEMPTS": "5",
     "LOG_LEVEL": ""
   },
   "schema": {
